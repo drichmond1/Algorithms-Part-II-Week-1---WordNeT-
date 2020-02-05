@@ -1,0 +1,25 @@
+0,A,(slang) a neighborhood  
+1,B,the decade from 1530 to 1539
+2,C,the decade from 1530 to 1539 
+3,D,the decade from 1530 to 1539 
+4,E,the decade from 1530 to 1539 
+5,F,the decade from 1530 to 1539 
+6,G,the decade from 1530 to 1539 
+7,H,the decade from 1530 to 1539 
+8,I,the decade from 1530 to 1539 
+9,J,the decade from 1530 to 1539 
+10,K,the decade from 1530 to 1539 
+11,L,the decade from 1530 to 1539 
+12,M,the decade from 1530 to 1539 
+13,N,the decade from 1530 to 1539 
+14,O,the decade from 1530 to 1539 
+15,P,the decade from 1530 to 1539 
+16,G,the decade from 1530 to 1539 
+17,G,the decade from 1530 to 1539 
+18,Q,the decade from 1530 to 1539 
+19,R,the decade from 1530 to 1539 
+20,S,the decade from 1530 to 1539 
+21,T,the decade from 1530 to 1539 
+22,U,the decade from 1530 to 1539 
+23,N,the decade from 1530 to 1539 
+24,N,the decade from 1530 to 1539 
