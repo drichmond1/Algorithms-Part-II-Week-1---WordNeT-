@@ -38,62 +38,6 @@ public class SAP {
 
        }
 
-//       private Ancestor findAncestor(int v, int w) {
-//    	   int ancestor = -1;
-//    	   //BFS on A
-//    	   int firstNoun = v;
-//    	   HashMap<Integer, Tuple> mapA = new HashMap<>();
-//    	   Queue<Integer> q = new Queue<>();
-//    	   q.enqueue(firstNoun);
-//    	   mapA.put(firstNoun, new Tuple(-1, 0));
-//    	   
-//    	   while(!q.isEmpty()) {
-//    		   int current = q.dequeue();
-//    		   Iterator<Integer> iter = digraph.adj(current).iterator();
-//    		  
-//    		   while(iter.hasNext()) {
-//    			 
-//    			   int next = iter.next();
-//    			   if(!mapA.containsKey(next)) {
-//    			   mapA.put(next, new Tuple(current, (mapA.get(current).distance)+1));
-//    			   q.enqueue(next);
-//    			   }
-//    		   }
-//    	   }
-//    	   
-//    	   //BFS on B
-//    	   int secondNoun = w;
-//    	   HashMap<Integer, Tuple> mapB = new HashMap<>();
-//    	   Queue<Integer> qB = new Queue<>();
-//    	   qB.enqueue(secondNoun);
-//    	   mapB.put(secondNoun, new Tuple(-1, 0));
-//    	   int currentDistance = (int) Double.POSITIVE_INFINITY;
-//    	   while(!qB.isEmpty()) {
-//    		   int current = qB.dequeue();
-//
-//    		   if(mapA.containsKey(current)) {
-//				   if(mapA.get(current).distance + mapB.get(current).distance < currentDistance) {
-//					   currentDistance = mapA.get(current).distance + mapB.get(current).distance;
-//					   ancestor = current;
-//				   }
-//				 
-//			   }
-//    		   Iterator<Integer> iter = digraph.adj(current).iterator();
-//    		
-//
-//    		   while(iter.hasNext()) {
-//    				  
-//    			   int next = iter.next();
-//    			   if(!mapB.containsKey(next)) {
-//    			   mapB.put(next, new Tuple(current, mapB.get(current).distance + 1));
-//    			   qB.enqueue(next);
-//    			   }
-//    			   
-//    		   }
-//    		  
-//    	   }
-//    	   return new Ancestor(ancestor, currentDistance);
-//	}
 
 	// length of shortest ancestral path between any vertex in v and any vertex in w; -1 if no such path
        public int length(Iterable<Integer> v, Iterable<Integer> w) {
@@ -266,17 +210,7 @@ public class SAP {
     		        StdOut.printf("length = %d, ancestor = %d\n", length, ancestor);
 
     		}
-//    		    List<Integer> listA = new ArrayList<Integer>();
-//    		    listA.add(13);
-//    		    listA.add(23);
-//    		    listA.add(24);
-//    		    
-//    		    List<Integer> listB = new ArrayList<Integer>();
-//    		    listB.add(6);
-//    		    listB.add(16);
-//    		    listB.add(17);
-//    		    System.out.println(sap.ancestor(listA, listB));
-//    		    System.out.println(sap.length(listA, listB));
+
        }
        private class Tuple{
     	   private int parent;
